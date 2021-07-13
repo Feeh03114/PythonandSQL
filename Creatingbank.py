@@ -20,7 +20,7 @@ while (exiting.upper()  != 'N'):
     namecolumn = input('Name of colunm: ')
     typecolunm = input('Type of colunm: ')
     cursor.execute("CREATE TABLE '"+nametable+"' ('"+namecolumn+" "+typecolunm+"')")
-    cont = input('Do you want to place more columns?(Y or N) ')
+    cont = input('Do you want to place more columns?(Y or N)')
     if (cont.upper() == "Y"):
         while (but.upper() != 'N'):
             namecolumn = input('Name of colunm: ')

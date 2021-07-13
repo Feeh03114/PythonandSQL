@@ -3,7 +3,7 @@ import sqlite3
 
 
 
-banco = sqlite3.connect(r'D:\felip\Documents\Eng\banco py'+'\'+'Retrabalho'+'.db')
+banco = sqlite3.connect(r'D:\felip\Documents\Eng\banco py\Retrabalho.db')
 
 estoque = pd.read_sql_query("SELECT * FROM estoque",banco)
 entrada = pd.read_sql_query("SELECT * FROM entrada",banco)
